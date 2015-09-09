@@ -57,9 +57,6 @@ module.exports = base.extend({
       }
     }
 
-    if (!model.validationError) {
-      return;
-    }
     this.updateViewWithValidation({
       name: name,
       quantity: quantity,
